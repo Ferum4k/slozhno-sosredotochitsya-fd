@@ -17,4 +17,19 @@
   --title-text-color: #353430;
   --indent-text-color: #353430;
   --rec-display: none;
+  --decor-color-faded: #32312D66;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url(../images/cover-image-light.png);
+    --background-color: #FFF1F7;
+    --accent-color: #FF8DCB;
+    --decor-color: #353430;
+    --header-title-color: #FFC2E6;
+    --title-text-color: #353430;
+    --indent-text-color: #353430;
+    --rec-display: none;
+    --decor-color-faded: #32312D66;
+  }
 }
